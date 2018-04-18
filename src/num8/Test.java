@@ -12,8 +12,8 @@ public class Test {
 	        对于–128到127（默认是127）之间的值,被装箱后，会被放在内存里进行重用
 	        但是如果超出了这个值,系统会重新new 一个对象
 	        */
-	        Integer i1 = 100;
-	        Integer i2 = 100;
+	        Integer i1 = 200;
+	        Integer i2 = 200;
 
 	        /**
 	        注意 == 与 equals的区别
