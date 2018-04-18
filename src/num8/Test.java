@@ -14,6 +14,9 @@ public class Test {
 	        */
 	        Integer i1 = 200;
 	        Integer i2 = 200;
+	        String a = "q";
+	        String b = "q";
+	        String c = new String("q");
 
 	        /**
 	        注意 == 与 equals的区别
@@ -21,6 +24,16 @@ public class Test {
 	        equals 比较的是对象的内容
 	        */
 	        if(i1==i2) {
+	            System.out.println("true");
+	        } else {
+	            System.out.println("false");
+	        }
+	        if(a==b) {
+	            System.out.println("true");
+	        } else {
+	            System.out.println("false");
+	        }
+	        if(a==c) {
 	            System.out.println("true");
 	        } else {
 	            System.out.println("false");
